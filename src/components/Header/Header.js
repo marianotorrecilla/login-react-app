@@ -4,7 +4,6 @@ import useUser from "../../hook/useUser"
 import './Header.css'
 
 export default function Header () {
-    //const isLogged = false
     const {isLogged, logout} = useUser()
 
     const handleClick = e => {
@@ -13,7 +12,7 @@ export default function Header () {
     }
 
     return (
-        <header className='gf-header'>
+        <header className='lg-header'>
             { isLogged ? 
             <Link href="#" onClick={handleClick}>
                 Logout

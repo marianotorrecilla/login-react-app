@@ -1,10 +1,10 @@
-.gf-header {
+.lg-header {
     background-color: #282c34;
     display: flex;
     justify-content: flex-end;
 }
 
-.gf-header a {
+.lg-header a {
     color: white;
     font-size: 18px;
     font-family: 'Antonio', sans-serif;
@@ -12,7 +12,7 @@
     text-decoration: none;
 }
 
-.gf-header a:hover {
+.lg-header a:hover {
     color: rgb(138, 43, 226);;
     text-decoration: underline;
 }
