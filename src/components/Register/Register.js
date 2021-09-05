@@ -65,8 +65,7 @@ export default function Register () {
                             className={errors.username ? 'error' : 'input-form'}
                         />
                         <ErrorMessage className="form-errors" name="username" component="span" />
-                        
-                        
+
                         <Field
                             type="password" 
                             name="password"
