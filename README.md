@@ -5,7 +5,7 @@ Also, if you refresh the browser, the login persists.
 
 ## Dependencies
 
-+ "formik": to register and login forms and validations
++ "formik": to register form and validations
 + "wouter": to routing
 
 ## Hooks
